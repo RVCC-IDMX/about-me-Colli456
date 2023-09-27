@@ -1,0 +1,32 @@
+body{
+    font-family: Gabarito;
+    background-color: #C861E1;
+    color: #4C0C5C;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: "Maven Pro";
+    font-size: 300pt;
+}
+h1 {
+    font-size: 30pt;
+}
+h2 {
+    font-size: 22pt;
+}
+header {
+    text-align: center;
+}
+#hero, footer {
+    color: #B61CDB;
+    border: 2px solid #8B16A8;
+    background-color: #51275C;
+    text-align: center;
+    padding: 10px;
+}
+#hero img{
+    width: 250pt;
+}
+#bio {
+    text-align: center;
+}
