@@ -49,3 +49,17 @@ header {
 #gallery figure {
     text-align: center;
 }
+
+#lit {
+    border: 10px solid #00ff7f;
+    border-color: #00ff7f;
+    text-align: center;
+}
+
+#lit div {
+    padding: 2Rem ;
+    max-width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
