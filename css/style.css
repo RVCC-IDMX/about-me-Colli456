@@ -63,3 +63,9 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+#lit div p::first-letter {
+
+    color: azure;
+    font: 2em sans-serif;
+}
