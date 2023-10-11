@@ -30,12 +30,18 @@ header {
 #bio {
     text-align: center;
 }
+#bio p {
+    font-size: large;
+}
 #hobbies ul li:nth-child(odd) {
    color: aqua;
 }
 #hobbies ul li:nth-child(even) {
     color: #00ff7f;
  }
+#hobbies li{
+    font-size: large;
+}
 #hobbies {
     display: flex;
     flex-direction: column;
@@ -86,5 +92,26 @@ header {
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
+    }
+    #lit div{
+        max-width: 100%;
+        columns: 40rem;
+    }
+}
+
+@media (min-width:80em){
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gallery hr{
+        display: none;
+    }
+    #gallery h2{
+        grid-column: 1/-1;
+        text-align: center;
+    }
+    #gallery figure{
+        display: block;
     }
 }
