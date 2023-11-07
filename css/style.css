@@ -97,6 +97,9 @@ header {
     margin-left:auto;
     margin-right:auto;
 }
+#formElements{
+    display: grid;
+}
 
 @media (min-width:60em){
     #gallery figure{
