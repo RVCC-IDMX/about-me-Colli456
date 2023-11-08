@@ -100,6 +100,39 @@ header {
 #formElements{
     display: grid;
 }
+#Contact {
+    padding: 1rem;
+    max-width: 650px;
+    margin: 2rem auto;
+}
+fieldset {
+    border: 10px solid #00ff7f;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#Contact input, #Contact textarea, #Contact button, #Contact select {
+    padding: 1em;
+    font-size: 1rem;
+}
+legend {
+    background-color: aqua;
+    padding: .6em;
+}
+#Contact ul {
+    list-style: none;
+    padding: 0px;
+}
+#Contact li {
+    margin: 1rem;
+}
+#Contact button {
+    background-color: aqua;
+    color: #8B16A8;
+    border: 1px #B61CDB;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+}
 
 @media (min-width:60em){
     #gallery figure{
