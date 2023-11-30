@@ -97,6 +97,22 @@ header {
     margin-left:auto;
     margin-right:auto;
 }
+#Map {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#Em iframe{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+#Em{
+    position:relative;
+    padding-bottom:65%; 
+}
 #formElements{
     display: grid;
 }
@@ -132,6 +148,9 @@ legend {
     max-width: 400px;
     width: 50%;
     justify-self: center;
+}
+footer a {
+    color: white;
 }
 
 @media (min-width:60em){
