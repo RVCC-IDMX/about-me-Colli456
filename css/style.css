@@ -32,13 +32,9 @@ header {
 }
 #bio p {
     font-size: large;
+    line-height: 1.7;
 }
-#hobbies ul li:nth-child(odd) {
-   color: aqua;
-}
-#hobbies ul li:nth-child(even) {
-    color: #00ff7f;
- }
+
 #hobbies li{
     font-size: large;
 }
@@ -61,6 +57,40 @@ header {
     text-align: center;
 }
 
+#exam img {
+    max-width: 80%;
+}
+
+#exam figure {
+    text-align: center;
+}
+
+#bio {
+    
+    text-align: center;
+}
+
+#bio div {
+    padding: 1Rem ;
+    max-width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio {
+    
+    text-align: center;
+}
+
+#hobbies div {
+    padding: 1Rem ;
+    max-width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #lit {
     border: 10px solid #00ff7f;
     border-color: #00ff7f;
@@ -68,11 +98,15 @@ header {
 }
 
 #lit div {
-    padding: 2Rem ;
+    padding: 1Rem ;
     max-width: 70%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+#lit div p {
+    line-height: 1.7;
 }
 
 #lit div p::first-letter {
@@ -165,6 +199,17 @@ footer a {
         font-size: 2rem;
         margin-left: 1rem;
     }
+    #exam figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    #exam figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
     #lit div{
         max-width: 100%;
         columns: 40rem;
@@ -184,6 +229,20 @@ footer a {
         text-align: center;
     }
     #gallery figure{
+        display: block;
+    }
+    #exam{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #exam hr{
+        display: none;
+    }
+    #exam h2{
+        grid-column: 1/-1;
+        text-align: center;
+    }
+    #exam figure{
         display: block;
     }
 }
