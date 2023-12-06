@@ -26,21 +26,33 @@
 
         <nav class="navbar">
             <div class="Logo">
-                <img src="img/logo-96X96.svg" alt="Blue Bird Logo">
+                <img src="img/Header.png" alt="Head Logo">
                 <h1>About Me</h1>
             </div>
 
             <div class="navbar-links">
-                <ul>
-                    <li><a href="#bio">Home</a></li>
-                    <li><a href="#gallery">About Me</a></li>
-                    <li><a href="#lit">Contact</a></li>
-                    <li><a href="#Contact">Store</a></li>
+
+                <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+                <label for="nav__checkbox" class="nav__toggle">
+                    <svg class="menu" viewBox="0 0 448 512" width="100" title="bars">
+                        <path
+                            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                    </svg>
+                    <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+                        <path
+                            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+                    </svg>
+                </label>
+                <ul class="nav__menu">
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#lit">Blog</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
-        
+
 
     </header>
 
@@ -49,7 +61,7 @@
 
         <Section id="hero">
 
-            <img src="img/avataaars.png" alt="Image of the creater">
+            <img src="img/Profile.jpg" alt="Image of the creater">
             <div>
                 <p>Collie Clarke</p>
                 <p>New Jersey</p>
@@ -59,30 +71,54 @@
         <br>
 
         <section id="bio">
-            <!--This is my BIO-->
+            <!--This is my BIO section-->
             <div>
                 <h2>BIO</h2>
 
-                <p>I was born and raised in Jamaica</p>
-                <p>I like playing video games in my pasttime</p>
-                <p>My favorite food is Fried Rice</p>
+                <p>Hello readers, my name is Collie Clarke. At the time of writing this I’m a 23-year-old student doing
+                    a certificate course at Raritan Valley Community College located in North Branch, New Jersey. I am
+                    currently living in Plainfield new jersey with my grandparents and aunty. I was originally born and
+                    raised in Jamaica but in 2020 I got the opportunity to move to the states and further my studies. I
+                    have always had a knack for building or creating different things. As a kid my favorite toys to play
+                    with were Lego’s I loved spending my time creating different vehicles. When I was in high school, I
+                    did technical drawing and construction classes. Now that I’m in college I am doing a web development
+                    course</p>
+
             </div>
 
         </section>
 
+        <!--This is my hobbies section-->
+
         <section id="hobbies">
 
-            <h2>Hobbies</h2>
+            <div>
 
-            <ul>
-                <li>Gaming</li>
-                <li>Sleeping</li>
-                <li>Watching</li>
-            </ul>
+                <h2>Hobbies</h2>
+
+                <ul>
+                    <li>For my hobbies there are a few activities I like to do in my spare time. One activity I like to
+                        do is play video games of all sorts. These include console games on the play station (ps3) and
+                        the Nintendo Wii console to games on my PC and even my phone.</li>
+                    <br>
+                    <li>Another activity I like to do is to watch a variety of different videos or content. Now these
+                        videos can range from videos on YouTube to streams on twitch and sometimes some short videos on
+                        TikTok.</li>
+                    <br>
+                    <li>The final activity that I will mention in this paragraph is doing absolutely nothing. This means
+                        that I enjoy the activity of just being able to lay down and relax without a care in the world
+                        and not have to worry about anything.</li>
+                </ul>
+
+            </div>
+
+
 
         </section>
 
         <br>
+
+        <!--This is my gallery section-->
 
         <section id="gallery">
 
@@ -91,27 +127,29 @@
             <hr>
 
             <figure>
-                <img src="img/Game-Pic-640w.jpg" alt="Gaming">
-                <figcaption>Gaming Controller</figcaption>
+                <img src="img/Game Image.jpeg" alt="Gaming">
+                <figcaption>Gaming Setup</figcaption>
             </figure>
 
             <hr>
 
             <figure>
-                <img src="img/Sleep-Pic-640w.jpg" alt="Sleeping">
-                <figcaption>Sleeping Cartoon</figcaption>
+                <img src="img/Rest Image.jpeg" alt="Sleeping">
+                <figcaption>Resting Bench</figcaption>
             </figure>
 
             <hr>
 
             <figure>
-                <img src="img/Watch-Pic-640w.jpg" alt="Watching">
-                <figcaption>Tv Remote</figcaption>
+                <img src="img/Watch Image.jpeg" alt="Watching">
+                <figcaption>My Tv</figcaption>
             </figure>
 
         </section>
 
         <br>
+
+        <!--This is my Short Video section-->
 
         <section id="video">
 
@@ -130,54 +168,79 @@
 
         <br>
 
+        <!--This is my Blog section-->
+
         <article id="lit">
 
-            <h2>Working Title</h2>
+            <h2>My Blog</h2>
 
             <div>
-                <p>"My friends, we are going into a terrible danger, and we need arms of many kinds. Our enemy is not
-                    merely spiritual. Remember that he has the strength of twenty men, and that, though our necks or our
-                    windpipes are of the common kind--and therefore breakable or crushable--his are not amenable to mere
-                    strength. A stronger man, or a body of men more strong in all than him, can at certain times hold
-                    him; but they cannot hurt him as we can be hurt by him. We must, therefore, guard ourselves from his
-                    touch. Keep this near your heart"--as he spoke he lifted a little silver crucifix and held it out to
-                    me, I being nearest to him--"put these flowers round your neck"--here he handed to me a wreath of
-                    withered garlic blossoms--"for other enemies more mundane, this revolver and this knife; and for aid
-                    in all, these so small electric lamps, which you can fasten to your breast; and for all, and above
-                    all at the last, this, which we must not desecrate needless." This was a portion of Sacred Wafer,
-                    which he put in an envelope and handed to me. Each of the others was similarly equipped. "Now," he
-                    said, "friend John, where are the skeleton keys? If so that we can open the door, we need not break
-                    house by the window, as before at Miss Lucy's."</p>
+                <h3>Embedding maps and videos.</h3>
+                <p>Have you ever wondered how some websites are able to play videos from YouTube or other streaming
+                    platforms from the webpage itself. Or how you can have a section with a google maps with all its
+                    features still functioning. The answer to this is pretty simple, it’s thanks to the use of embedded
+                    code that web pages are to add different type of media. An embedded code is a block of HTML that is
+                    placed in another page and renders a visual element a video, social media post, form, or page from
+                    another website or source. You can embed YouTube videos, Twitter posts, GIFs, and other multimedia
+                    objects on another website.</p>
 
-                <p>Dr. Seward tried one or two skeleton keys, his mechanical dexterity as a surgeon standing him in good
-                    stead. Presently he got one to suit; after a little play back and forward the bolt yielded, and,
-                    with a rusty clang, shot back. We pressed on the door, the rusty hinges creaked, and it slowly
-                    opened. It was startlingly like the image conveyed to me in Dr. Seward's diary of the opening of
-                    Miss Westenra's tomb; I fancy that the same idea seemed to strike the others, for with one accord
-                    they shrank back. The Professor was the first to move forward, and stepped into the open door.</p>
+                <h3>What is embed.</h3>
+                <p>Now you might be asking what is embed exactly. Well, embed in html means to integrate external
+                    content into another website or page. You embed something when you place a block of code called an
+                    embed code into the HTML editor of another website. When you hit ‘Save’ or ‘Publish,’ the media then
+                    renders on the published page.</p>
 
-                <p>"In manus tuas, Domine!" he said, crossing himself as he passed over the threshold. We closed the
-                    door behind us, lest when we should have lit our lamps we should possibly attract attention from the
-                    road. The Professor carefully tried the lock, lest we might not be able to open it from within
-                    should we be in a hurry making our exit. Then we all lit our lamps and proceeded on our search.</p>
+                <h3>How to Add HTML Embed Code.</h3>
+                <p>Now when it comes to adding an HTML embed code, for each site the method of getting an html code will
+                    be slightly different depending on the site. In general, you would go to the social post or webpage
+                    you’d like to embed, generate the embed code using the post’s options this can either be the three
+                    dots or the share button. Next you will need to find and copy the html code then paste the HTML
+                    snippet you just copied into your HTML viewer window. Don’t forget to save it and with that you are
+                    now finished and successfully embedded content onto your website or blog.</p>
 
-                <p>The light from the tiny lamps fell in all sorts of odd forms, as the rays crossed each other, or the
-                    opacity of our bodies threw great shadows. I could not for my life get away from the feeling that
-                    there was some one else amongst us. I suppose it was the recollection, so powerfully brought home to
-                    me by the grim surroundings, of that terrible experience in Transylvania. I think the feeling was
-                    common to us all, for I noticed that the others kept looking over their shoulders at every sound and
-                    every new shadow, just as I felt myself doing.</p>
+                <h3>What is iframe.</h3>
+                <p>Now when you’re embedding a video or the map you will notice that it’s in the iframe element but just
+                    what is an iframe. An iframe or an inline frame (iframe) is a HTML element that loads another HTML
+                    page within the document. It essentially puts another webpage within the parent page. They are
+                    commonly used for advertisements, embedded videos, web analytics and interactive content. The iframe
+                    element is easy to use, well supported and allows the embedding of third-party content. However, it
+                    is a heavy processer and memory, you have no control of the third-party site and it’s difficult to
+                    use in responsive design pages.</p>
 
-                <p>The whole place was thick with dust. The floor was seemingly inches deep, except where there were
-                    recent footsteps, in which on holding down my lamp I could see marks of hobnails where the dust was
-                    cracked. The walls were fluffy and heavy with dust, and in the corners were masses of spider's webs,
-                    whereon the dust had gathered till they looked like old tattered rags as the weight had torn them
-                    partly down. On a table in the hall was a great bunch of keys, with a time-yellowed label on each.
-                    They had been used several times, for on the table were several similar rents in the blanket of
-                    dust, similar to that exposed when the Professor lifted them. He turned to me and said:--</p>
+                <h3>How is iframe used?</h3>
+                <p>The most common use of an iframe is to load content from another site within the page. The child site
+                    can load its own content and cookies, so sites may allow it where they don't allow direct hotlinking
+                    content. Using an iframe is the accepted way to embed a YouTube video or Google Maps content. The
+                    iframe works by creating a new HTML document environment to load the content within.</p>
+
+                <h3>What is src?</h3>
+                <p>Now when you’re embedding a video or the map you will also notice that there is a src attribute
+                    that’s then followed by a link. The src is an attribute that specifies the location (URL) of the
+                    external resource. It’s an important part of the embedding code.<br><br>See images below for better
+                    understanding.
+                </p>
             </div>
 
         </article>
+
+        <br>
+
+        <!--This is my example of an embedded map section-->
+
+        <section id="Map">
+
+            <h2>An embed map</h2>
+
+            <div id="Em">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.9015071901304!2d-74.69076152397935!3d40.60999667140928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3937dc5acab1f%3A0x15e7f0de30681faa!2sRaritan%20Valley%20Community%20College!5e0!3m2!1sen!2sus!4v1701331572924!5m2!1sen!2sus"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+
+        <!--This is my Contact Us form section-->
 
         <section id="Contact">
 
@@ -191,20 +254,18 @@
                     <div id="formElements">
 
                         <label for="name">Name (required)</label>
-                        <input type="text" id="name" name="name" 
-                        placeholder="Your name  e.g - Alan Walker" required>
+                        <input type="text" id="name" name="name" placeholder="Your name  e.g - Alan Walker" required>
 
                         <br>
 
                         <label for="email">Email (required)</label>
-                        <input type="email" id="email" name="email"
-                        placeholder="Your email  e.g - Username@gmail.com" required>
+                        <input type="email" id="email" name="email" placeholder="Your email  e.g - Username@gmail.com"
+                            required>
 
                         <br>
 
                         <label for="phone">Phone (optional)</label>
-                        <input type="tel" id="phone" name="phone" 
-                        placeholder="Your phone number  e.g - 678-574-9765">
+                        <input type="tel" id="phone" name="phone" placeholder="Your phone number  e.g - 678-574-9765">
 
                         <br>
 
@@ -249,8 +310,12 @@
 
     </main>
 
+    <!--This is my footer-->
+
     <footer>
         &copy; 2023 - Collie Clarke
+
+        <a href="https://github.com/RVCC-IDMX/about-me-Colli456">Github</a>
 
     </footer>
 

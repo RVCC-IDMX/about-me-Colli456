@@ -53,11 +53,9 @@ main {
 
 .navbar-links li {
     list-style: none;
-    display: block;
+    display: none;
     padding: 0.5em 0;
 }
-
-
 
 /*  
  style all a tags in header 
@@ -71,6 +69,43 @@ main {
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+}
+
+.navbar-links svg {
+    width: 2rem;
+}
+
+.nav__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0px;
+    top:30px;
+}
+
+svg.close {
+    width: 1.5rem;
+    display: none;
+}
+
+svg.menu {
+    margin-top: 0.2rem;
+}
+
+.nav__checkbox {
+    display: none;
+}
+
+#nav__checkbox:checked ~ ul.nav__menu li{
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close{
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu{
+    display: none;
 }
 
 .navbar-links a:hover,
@@ -88,8 +123,6 @@ such that no text wraps
 
 @media screen and  (min-width: 60rem) {
     
-
-
     .navbar {
         flex-direction: row;
         justify-content: space-between;
@@ -99,4 +132,6 @@ such that no text wraps
         display: flex;
         justify-content: space-between;
     }
+
+
 }
